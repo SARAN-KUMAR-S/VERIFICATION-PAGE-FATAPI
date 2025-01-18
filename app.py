@@ -67,5 +67,8 @@ async def verify_certificate(cert_code: str = Form(...)):
             </body>
         </html>
         '''
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("app:app", host="0.0.0.0", port=8000)
 
 # To run the app, use: `uvicorn your_file_name:app --reload`
