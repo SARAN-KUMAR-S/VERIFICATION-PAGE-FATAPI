@@ -85,7 +85,7 @@ async def home(request: Request, certificate_no: str = None):
             <h1>Certificate Verification</h1>
             <form action="/" method="get">
                 <label for="certificate-no">Enter Certificate Number:</label>
-                <input type="text" id="certificate-no" name="certificate_no" placeholder="GCT-INT-001" required>
+                <input type="text" id="certificate-no" name="certificate_no" placeholder="GCT-INT-XXX" required>
                 <button type="submit">Verify</button>
             </form>
     """
